@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="script.js" defer></script>
+  <title>Conversor de unidades</title>
+</head>
+
+<body style="background-color:#ffcc00;">
+
+</body>
+<body>
+  <div class="container mt-5">
+    <h2>Conversor de unidades</h2>
+    <form id="conversorForm">
+      <div class="form-group">
+        <label for="kmInput">Kilómetros (km):</label>
+        <input type="number" class="form-control" id="kmInput" placeholder="Ingrese los kilómetros">
+      </div>
+      <div class="form-group">
+        <label for="mInput">Metros (m):</label>
+        <input type="number" class="form-control" id="mInput" placeholder="Ingrese los metros">
+      </div>
+      <div class="form-group">
+        <label for="ftInput">Pies (ft):</label>
+        <input type="number" class="form-control" id="ftInput" placeholder="Ingrese los pies">
+      </div>
+      <div class="form-group">
+        <label for="yardaInput">Yardas (yardas):</label>
+        <input type="number" class="form-control" id="yardaInput" placeholder="Ingrese las yardas">
+      </div>
+      <button type="submit" class="btn btn-danger">Convertir</button>
+      <button type="button" class="btn btn-secondary" onclick="limpiarCampos()">Limpiar campos</button>
+    </form>
+  </div>
+</body>
+</html>
+
